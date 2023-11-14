@@ -16,6 +16,16 @@ ul {
 button{
     cursor: pointer;
 }
+.page-header{
+    width: 1158px;
+    flex-shrink: 0;
+    background: var(--white, #FFFFFF);
+    margin: 0;
+    border-bottom: 1px solid #e7e9fc
+}
+.header-container{
+    display: flex;
+}
 
 .logo{
     color: #4D5AE5;
@@ -33,15 +43,24 @@ button{
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-
+.nav-links{
+    display: flex;
+    padding: 24px;
+}
 .navigation-link{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
-
+.logo-navigation{
+display: flex;
+margin-right: auto;
+align-items: center;
+margin-left: 76px;
+}
 .navigation-link:hover{
  color: #404BBF;
 }
@@ -49,6 +68,10 @@ button{
     color: #404BBF;
 }
 
+.contacts{
+    display: flex;
+    padding: 24px;
+}
 .contacts-link{
     color: #434455;
     line-height: 24px;
