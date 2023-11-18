@@ -158,6 +158,7 @@ margin-right: 76x;
 
 .dark-bg{
     padding: 188px 0;
+    background-color: #2E2F42;
 }
 
 .main-content{
@@ -167,7 +168,6 @@ margin-right: 76x;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    background-color: #2E2F42;
     text-transform: capitalize;
     letter-spacing: 0.02em;
     box-sizing: border-box;
@@ -272,7 +272,7 @@ margin-right: 76x;
 
 .our-team-list-items{
     background-color: #FFFFFF;
-    width calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
