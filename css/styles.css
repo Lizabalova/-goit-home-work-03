@@ -155,7 +155,7 @@ margin-right: 76x;
     color: #404BBF;
 }
 
-.dark-bg{
+.first-section{
     padding: 188px 0;
     background-color: #2E2F42;
 }
@@ -212,7 +212,7 @@ margin-right: 76x;
     flex-direction: row;
     align-items: flex-start;
 }
-.features-list-items{
+.feature-list-items{
     width: calc((100%-72px)/4);
 }
 
